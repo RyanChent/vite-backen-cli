@@ -7,7 +7,6 @@ const handlebars = require('handlebars')
 const ora = require('ora')
 const chalk = require('chalk')
 const symbols = require('log-symbols')
-const exec = require('child_process').exec
 
 program.version('1.0.0', '-v, --version')
     .command('init <name>')
@@ -48,16 +47,7 @@ program.version('1.0.0', '-v, --version')
                 npm install (or yarn)
                 npm run dev (or yarn dev)
                 `)
-                exec(`cd ${name} && npm install`, (err, stdout, stderr) => {
-                    if (stderr) {
-                        console.log(stderr)
-                        process.exit()
-                    } else {
-                        console.log(chalk.green('Init Success'))
-                    }
-                })
             })
-
         })
     })
 program.parse(process.argv);
