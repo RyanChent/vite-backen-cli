@@ -1,6 +1,6 @@
 {
   "name": "vite-backen-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vite-backen-admin-template",
   "main": "index.js",
   "scripts": {
@@ -16,11 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
-    "child_process": "^1.0.2",
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
-    "handlebars": "^4.7.7",
-    "inquirer": "^8.0.0",
     "log-symbols": "^2.2.0",
     "ora": "^5.4.0"
   }
