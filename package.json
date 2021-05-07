@@ -1,6 +1,6 @@
 {
   "name": "vite-backen-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vite-backen-admin-template",
   "main": "index.js",
   "scripts": {
