@@ -1,4 +1,4 @@
-#! node
+#! /usr/bin/env node
 const program = require('commander')
 const download = require('download-git-repo')
 const ora = require('ora')
